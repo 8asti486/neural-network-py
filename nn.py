@@ -13,7 +13,7 @@ class TR:
     self.out = out
 
 # neural network
-class network:
+class Network:
   def __init__(self, layers):
     self.layers = layers # array with number of neurons for each layer
     self.L = len(self.layers) - 1 # index of last layer
