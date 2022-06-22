@@ -136,7 +136,7 @@ def Start():
   global nn # neural network
   global tr # training examples
 
-  nn = network([2, 3, 3, 2]) # layers: 2 inputs, 3 hidden, 3 hidden, 2 outputs
+  nn = Network([2, 3, 3, 2]) # layers: 2 inputs, 3 hidden, 3 hidden, 2 outputs
   
   # four examples with each 2 inputs and 2 output (must match number of inputs & outputs of network)
   # here, the network will be trained to detect, if two numbers are the same
